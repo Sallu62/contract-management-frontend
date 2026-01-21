@@ -63,13 +63,49 @@ Each contract follows a **strict lifecycle flow**:
 
 ## 📁 Project Structure
 
-src/
-├── components/     # Reusable UI parts (Layout, Nav, etc.)
-├── pages/          # Full page views (Dashboard, Editor, Viewer)
-├── state/          # Redux store, slices, and selectors
-├── types.ts        # Shared TS interfaces and Enums
-├── constants.ts    # Lifecycle maps and styling constants
-└── App.tsx         # Main router and provider setup
+contract-management-platform/
+│
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── icons/
+│   │   └── styles/
+│   │       └── global.css
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── Footer.jsx
+│   │   └── ProtectedRoute.jsx
+│   │
+│   ├── pages/
+│   │   ├── Login.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Contracts.jsx
+│   │   ├── AddContract.jsx
+│   │   ├── EditContract.jsx
+│   │   └── NotFound.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── utils/
+│   │   └── auth.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── routes.jsx
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+└── netlify.toml
+
 
 ## Run Locally
 
