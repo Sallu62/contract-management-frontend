@@ -62,7 +62,7 @@ Each contract follows a **strict lifecycle flow**:
 ---
 
 ## 📁 Project Structure
-
+'''bash
 contract-management-platform/
 │
 ├── public/
