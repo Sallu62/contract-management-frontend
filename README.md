@@ -7,6 +7,10 @@ The application allows users to create reusable contract templates (Blueprints),
 
 ---
 
+## 🚀 Live Demo
+
+🔗 **Deployed URL:** https://agent-697084875cce--contract-management-platform.netlify.app/
+
 ## 🚀 Features
 
 ### 1. Blueprint Creation
