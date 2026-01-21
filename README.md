@@ -63,9 +63,13 @@ Each contract follows a **strict lifecycle flow**:
 
 ## 📁 Project Structure
 
-
-
-This contains everything you need to run your app locally.
+src/
+├── components/     # Reusable UI parts (Layout, Nav, etc.)
+├── pages/          # Full page views (Dashboard, Editor, Viewer)
+├── state/          # Redux store, slices, and selectors
+├── types.ts        # Shared TS interfaces and Enums
+├── constants.ts    # Lifecycle maps and styling constants
+└── App.tsx         # Main router and provider setup
 
 ## Run Locally
 
