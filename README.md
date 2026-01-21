@@ -62,7 +62,7 @@ Each contract follows a **strict lifecycle flow**:
 ---
 
 ## 📁 Project Structure
-'''bash
+```bash
 contract-management-platform/
 │
 ├── public/
@@ -105,6 +105,7 @@ contract-management-platform/
 ├── package-lock.json
 ├── README.md
 └── netlify.toml
+```
 
 
 ## Run Locally
